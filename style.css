@@ -1,0 +1,472 @@
+*{
+    box-sizing: border-box;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: url(image/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner .content{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    /* padding: 10px 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .content h4{
+    color: white;
+    font-size: 1em;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+.banner .content h1{
+    color: white;
+    font-size: 5em;
+    
+}
+
+.banner .content .description{
+    width: 70%;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* width: 70%; */
+    margin-top: 8%;
+    /* background-color: tomato; */
+}
+
+.banner .content .description .picture
+{
+    width: 25%;
+    margin-right: 5%;
+}
+.banner .content .description .picture figure
+{
+    width: 100%;
+}
+
+.banner .content .description .text
+{
+    width: 65%;
+}
+.banner .content .description .text p
+{
+color: rgba(240, 250, 249, 0.877);
+margin-bottom: 8%;
+font-size: 1.2em;
+}
+
+.banner .content .description .details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.banner .content .description .details .watch{
+    color: white;
+    font-size: 1.2em;
+    margin-right: 50px;
+    font-weight: 600;
+}
+.banner .content .description .details .watch i{
+    margin-right: 10px;
+}
+.banner .content .description .details .stars{
+    margin-right: 50px;
+}
+
+.banner .content .description .details .stars span{
+    font-size: 1.8em;
+    color: rgba(128, 128, 128, 0.726);
+    margin-right: 7px;
+}
+.banner .content .description .details .stars span.active{
+    color: #FAA800;
+}
+
+
+.banner .content .description .details .year{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+.banner .content .description .link{
+    display: flex;
+    align-items: center;
+}
+.banner .content .description .link a{
+    color: white;
+    background-color: #131318;
+    border: 1px solid transparent;
+    padding: 2%4%;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.banner .content .description .link a.blue{
+    color: white;
+    background-color: #0072D2;
+}
+.banner .content .description .link a.blue:hover{
+    background-color: #0c60a5;
+}
+.banner .content .description .link a.dark{
+    color: white;
+    background-color: #131318;
+    border: 1px solid white;
+}
+.banner .content .description .link a.dark:hover{
+    color: white;
+    background-color: #000000;
+    border: 1px solid white;
+}
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 1024px){
+    
+
+    .banner .content .description .picture
+    {
+        width: 25%;
+        margin-right: 5%;
+    }
+    
+.banner .content .description .text
+{
+    width: 68%;
+}
+
+.banner .content .description{
+    width: 75%;
+}   
+.banner .content h4{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.banner .content h1{
+    color: white;
+    font-size: 4em;
+    
+}
+
+.banner .content .description .text p
+{
+margin-bottom: 7%;
+font-size: 1em;
+}
+
+.banner .content .description .details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+}
+.banner .content .description .details .watch{
+    font-size: 1.1em;
+    margin-right: 50px;
+}
+.banner .content .description .details .watch i{
+    margin-right: 10px;
+}
+.banner .content .description .details .stars{
+    margin-right: 50px;
+}
+
+.banner .content .description .details .stars span{
+    font-size: 1.7em;
+    margin-right: 7px;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 1024px){
+    
+
+    .banner .content .description .picture
+    {
+        width: 25%;
+        margin-right: 5%;
+    }
+    
+.banner .content .description .text
+{
+    width: 68%;
+}
+
+.banner .content .description{
+    width: 75%;
+}   
+.banner .content h4{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.banner .content h1{
+    color: white;
+    font-size: 4em;
+    
+}
+
+.banner .content .description .text p
+{
+margin-bottom: 7%;
+font-size: 1em;
+}
+
+.banner .content .description .details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+}
+.banner .content .description .details .watch{
+    font-size: 1.1em;
+    margin-right: 50px;
+}
+.banner .content .description .details .watch i{
+    margin-right: 10px;
+}
+.banner .content .description .details .stars{
+    margin-right: 50px;
+}
+
+.banner .content .description .details .stars span{
+    font-size: 1.7em;
+    margin-right: 7px;
+}
+.banner .content{
+    background-color: rgba(0,0,0,0.8);
+}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 780px){
+    
+
+.banner .content .description{
+    width: 85%;
+}
+
+    .banner .content .description .picture
+    {
+        width: 27%;
+    }
+    
+.banner .content .description .text
+{
+    width: 65%;
+}
+
+.banner .content h4{
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.banner .content .description .text p
+{
+margin-bottom: 7%;
+font-size: 0.9em;
+}
+
+.banner .content .description .details{
+
+    margin-bottom: 8%;
+}
+.banner .content .description .details .watch{
+    font-size: 1em;
+    margin-right: 40px;
+}
+.banner .content .description .details .watch i{
+    margin-right: 10px;
+}
+.banner .content .description .details .stars{
+    margin-right: 40px;
+}
+
+.banner .content .description .details .stars span{
+    font-size: 1.5em;
+    margin-right: 7px;
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 425px) and (max-width: 700px){
+    
+
+    .banner .content .description{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+    }
+    
+        .banner .content .description .picture
+        {
+            width: 50%;
+            margin-bottom: 2%;
+        }
+        
+    .banner .content .description .text
+    {
+        width: 100%;
+    }
+    
+    .banner .content h4{
+        margin-bottom: 0%;
+        margin-top: 1%;
+        font-size: 0.5em;
+    }
+
+    .banner .content h1{
+        margin-bottom: 0;
+        margin-top: 1%;
+        font-size: 2em;
+    }
+    
+    .banner .content .description .text p
+    {
+    margin-bottom: 2%;
+    font-size: 1.1em;
+    text-align: center;
+    }
+    
+    .banner .content .description .details{
+    
+        margin-bottom: 3%;
+        display: flex;
+        justify-content: center;
+    }
+    .banner .content .description .details .watch{
+        font-size: 1em;
+        margin-right: 30px;
+    }
+    .banner .content .description .details .watch i{
+        margin-right: 2px;
+    }
+    .banner .content .description .details .stars{
+        margin-right: 30px;
+    }
+    
+    .banner .content .description .details .stars span{
+        font-size: 1.3em;
+        margin-right: 7px;
+    }
+    .banner .content .description .link{
+        margin-bottom: 5%;
+        justify-content: center;
+    }
+    .banner .content{
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    }
+    
+    
+@media only screen and (min-width: 320px) and (max-width: 424px){
+    
+
+    .banner .content .description{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 2%;
+    }
+    
+        .banner .content .description .picture
+        {
+            margin: auto;
+            width: 80%;
+            margin-bottom: 2%;
+        }
+        
+    .banner .content .description .text
+    {
+        width: 100%;
+    }
+    
+    .banner .content h4{
+        margin-bottom: 1%;
+        margin-top: 1%;
+        font-size: 0.5em;
+    }
+
+    .banner .content h1{
+        margin-bottom: 0;
+        margin-top: 1%;
+        font-size: 2em;
+    }
+    
+    .banner .content .description .text p
+    {
+    margin-bottom: 6%;
+    font-size: 1em;
+    text-align: center;
+    }
+    
+    .banner .content .description .details{
+    
+        margin-bottom: 6%;
+        display: flex;
+        justify-content: center;
+    }
+    .banner .content .description .details .watch{
+        font-size: 1em;
+        margin-right: 20px;
+    }
+    .banner .content .description .details .watch i{
+        margin-right: 2px;
+    }
+    .banner .content .description .details .stars{
+        margin-right: 30px;
+    }
+    
+    .banner .content .description .details .stars span{
+        font-size: 1em;
+        margin-right: 4px;
+    }
+    .banner .content .description .link{
+        margin-bottom: 5%;
+        justify-content: center;
+    }
+
+.banner .content{
+    background-color: rgba(0,0,0,0.8);
+}
+    }
+    
+    
